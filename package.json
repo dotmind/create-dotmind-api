@@ -4,6 +4,7 @@
   "bin": {
     "create-dotmind-boilerplate": "bin/create-dotmind-app.js"
   },
+  "main": "index.js",
   "license": "ISC",
   "dependencies": {
     "ansi-escapes": "^3.1.0",
