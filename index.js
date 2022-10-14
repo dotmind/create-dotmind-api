@@ -1,7 +1,7 @@
-const createDotmindApp = require('./lib');
+const createDotmindApi = require('./lib');
 const consoles = require('./lib/consoles');
 
 module.exports = {
-  createDotmindApp,
+  createDotmindApi,
   consoles,
 };

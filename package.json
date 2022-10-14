@@ -1,26 +1,27 @@
 {
-  "name": "@dotmind/create-dotmind-app",
-  "description": "Use dotmind boilerplate to create new project.",
+  "name": "@dotmind/create-dotmind-api",
+  "description": "Use dotmind boilerplate api to create new project.",
   "keywords": [
     "dotmind",
     "create",
-    "boilerplate"
+    "boilerplate",
+    "api"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": {
-    "create-dotmind-boilerplate": "bin/create-dotmind-app.js"
+    "create-dotmind-boilerplate": "bin/create-dotmind-api.js"
   },
-  "homepage": "https://github.com/dotmind/create-dotmind-app",
+  "homepage": "https://github.com/dotmind/create-dotmind-api",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dotmind/create-dotmind-app"
+    "url": "https://github.com/dotmind/create-dotmind-api"
   },
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "ansi-escapes": "^3.1.0",
     "chalk": "^2.3.2",
-    "commander": "^2.15.1",
+    "commander": "^9.4.1",
     "cross-spawn": "^6.0.5",
     "execa": "^0.10.0",
     "ms": "^2.1.1",
